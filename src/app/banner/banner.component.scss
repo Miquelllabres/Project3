@@ -1,0 +1,15 @@
+
+.bannerPicture{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:url("./images/logos/inhabitent-logo-full.svg")no-repeat center, linear-gradient(rgba(0,0,0,0.4),transparent), url("/images/home-hero.jpg") no-repeat;
+	background-size:35% 35%,cover,cover;
+	min-height: 100vh;
+
+}
+/*.BannerLogo{
+	background: url("./images/logos/inhabitent-logo-full.svg")no-repeat;
+	height: 35vh;
+	width: 35vh;
+}*/

@@ -1,0 +1,29 @@
+#ABOUT .aboutPicture{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(rgba(0,0,0,0.6),transparent), url("/images/about-hero.jpg")bottom center no-repeat;
+	background-size:cover,cover;
+	min-height: 80vh;
+
+}
+#ABOUT h1{
+	color:white;
+}
+#ABOUT h2{
+	font-size: 2rem;
+	margin:3vh 0;
+}
+#ABOUT p{	
+	color: #404040;
+	font-weight: lighter;
+	font-size: 1.25rem;
+	margin: 4vh;
+	text-align: left;
+	line-height: 3vh;
+}
+#ABOUT .wrap{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}

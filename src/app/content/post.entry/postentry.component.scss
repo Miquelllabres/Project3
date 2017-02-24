@@ -1,0 +1,100 @@
+
+#POSTENTRY .flex {
+	display: flex;
+	justify-content: space-around;
+}
+#POSTENTRY .flexB {
+	display: flex;
+	justify-content:space-between;
+
+}
+#POSTENTRY .mandatory{
+	align-self: flex-start;
+}
+
+#POSTENTRY .flex-column{
+	flex-direction: column;
+}
+
+#POSTENTRY .flex-row {
+	flex-direction: row;
+}
+/*.spceBet{
+	margin-left: 6vh;
+}*/
+#POSTENTRY .space{
+	width: 80%;
+	
+}
+/*.spceBet:hover{
+	margin-left: 6vh;
+}*/
+/*.scroll{
+	overflow: scroll;
+	width:300px;
+	height:300px;
+}*/
+#POSTENTRY label{
+	font-family: novo , sans-serif;
+}
+#POSTENTRY p{
+	/*font-size:1rem;*/
+}
+#POSTENTRY h3{
+	font-size: 1.5rem;
+	color:#008080;
+}
+#POSTENTRY h2{
+	
+}
+#POSTENTRY button{
+	font-size: 1rem;
+	background: none;
+	border:1px solid black;
+	color: black;
+	width: 15vh;
+	height: 5vh;
+	margin: 2vh 0;
+}
+#POSTENTRY button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+  border-color: #eee;
+}
+#POSTENTRY button:disabled:hover {
+  background-color: #eee;
+  color: #aaa;
+  cursor:not-allowed;
+  border-color: #eee;
+}
+#POSTENTRY button:hover{
+	background-color: #008080;
+	color:white;
+	border:none;
+	margin: 2vh 0;
+	
+}
+#POSTENTRY textarea{
+	border:1px solid #a1a1a1;
+	width: 100%;
+}
+#POSTENTRY input{
+	width:70%;
+	height:25px;
+	border:1px solid #a1a1a1;
+}
+#POSTENTRY .alert{
+	font-size: 18px;
+	width:70%;
+	height:25px;
+	color:white;
+	background-color: #008080;
+	border:1px solid #008080;
+
+}
+
+#POSTENTRY .status{
+	width: 90%;
+
+}

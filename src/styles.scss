@@ -1,0 +1,46 @@
+@font-face {
+	font-family: merri;
+    src: url(/fonts/Merriweather/Merriweather-Light.ttf);
+    
+}
+@font-face {
+	font-family: merriBold;
+	src: url(/fonts/Merriweather/Merriweather-Bold.ttf);
+    
+}
+
+@font-face {
+	font-family: novo;
+    src: url(/fonts/Novecento/Novecentosanswide-Normal.ttf);
+    src: url(/fonts/Novecento/Novecentosanswide-DemiBold.ttf);
+}
+
+p{
+	font-size: 16px;
+	font-family: merri ,sans-serif;
+	font-weight: light;
+	color: black;
+}
+h1{
+	font-family: novo , sans-serif;
+	font-size: 2.5rem;
+}
+h2{
+	font-family: novo , sans-serif;
+	font-size: 2rem;
+}
+
+h3{
+	font-family: novo , sans-serif;
+}
+a {
+	text-decoration: none;
+}
+a:visited{
+	color:white;
+}
+h5{
+	color:white;
+}
+
+

@@ -1,0 +1,151 @@
+#FIND .wrap{
+	width: 90%;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#FIND .map{
+	margin:4vh 0;
+	width:80%;
+	height:30vh;
+	background:url("./images/map.png") no-repeat center;
+}
+#FIND .journal{
+	width:80%;
+}
+#FIND .aside{
+	justify-content: center;
+	text-align: left;
+	width: 30%;
+	border-left: 1px solid #a1a1a1;
+	margin: 0 5vh;
+}
+#FIND .contact{
+	color:#008080;
+}
+#FIND .archive p{
+	color:#008080;
+}
+#FIND p{
+	line-height: 4vh;
+	margin: 0 4vh;
+}
+#FIND i{
+	margin-right: 1vh;
+	color:black;
+
+}
+#FIND h2{
+	margin: 0 4vh;}
+#FIND .findus{
+	margin:4vh 4vh;
+}
+
+#FIND h3{
+	margin: 4vh 4vh;
+	font-size: 1.5rem;
+}
+#FIND h1{	
+	text-align: center;
+	width: 30%;
+	height:8vh;
+	font-size: 2rem;
+	background-color: #008080;
+	color:white;
+	margin: 4vh 0;
+	position:absolute;
+	z-index: 99;
+}
+#FIND img{
+	border:1px solid #a1a1a1;
+	width: 700px;
+	height:500px;
+	position: relative;
+	margin: 2vh 0;
+}
+#FIND button{
+	font-size: 0.8rem;
+	background: none;
+	border:1px solid black;
+	color: black;
+	width: 15vh;
+	height: 5vh;
+	margin: 2vh 5vh;
+	
+}
+#FIND button:hover{
+	background-color: #008080;
+	color:white;
+	border:none;
+	margin: 2vh 5vh;
+	
+}
+#FIND .SubmitB{
+	font-size: 0.8rem;
+	background: none;
+	border:1px solid black;
+	color: black;
+	width: 15vh;
+	height: 5vh;
+}
+#FIND .SubmitB:hover{
+	background-color: #008080;
+	color:white;
+	border:none;
+}
+#FIND body{
+	margin: 0vh 2vh;
+}
+#FIND ul li {
+	display: inline;
+	margin: 2vh;
+	font-size: 10px;
+	padding: 1vh;
+	width: 10vh;
+	color: black !important;
+	
+}
+#FIND textarea{
+	width: 80%;
+}
+
+#FIND .commentsWidth{
+	width: 80%;
+}
+
+#FIND .comments{
+	
+	width: 100%;
+	margin: 2vh 0;
+	line-height: 3vh;
+}
+#FIND .middle{
+	margin: 0 3vh;
+}
+#FIND .postC p{
+	margin:0 4vh;
+}
+#FIND .bold{
+	font-family: merryBold, sans-serif;
+	font-weight:bold;
+	font-size: 1.5rem;
+}
+#FIND .ButtonFlex{
+	/*margin:1vh 0;*/
+	display: flex;
+	flex-direction: column;
+}
+// #FIND .ButtonFlex div{
+// 	margin:1vh 4vh;
+// }
+#FIND .fields{
+	width:100%;
+	margin:2vh 4vh;
+}
+#FIND .fields div{
+	margin:1vh 0;
+}
+#FIND span{
+	color:red;
+}

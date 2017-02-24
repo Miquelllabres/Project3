@@ -1,0 +1,104 @@
+
+<div id="READ">
+<div class="wrap">
+<div class="journal">
+<div *ngIf="journalPost">
+	
+	
+	<div>
+		<h1>{{journalPost.title}}</h1>
+		<img src="{{journalPost.image}}" alt="journalImage">
+		<p>{{journalPost.date}} / coments</p>
+
+	</div>	
+		<div><p><label>id: </label>{{journalPost.ID}}</p></div>
+		<p>{{journalPost.content}}</p>
+	
+	
+</div>	
+<div>	
+<div class="socialIcons">
+	<ul>
+				<li class="social"><i class="fa fa-facebook-f"></i>LIKE</li>
+				<li class="social"><i class="fa fa-twitter"></i>TWEET</li>
+				<li class="social"><i class="fa fa-pinterest"></i>PIN</li>
+			</ul>
+</div>
+
+
+
+<div><h2>3 COMMENTS</h2></div>
+<div class="flexcomment">
+<div class="logoComment"></div>
+<div class="comments commentsWidth">
+Miguel Llabres <br>
+17 Feb 2017 at 12:44 pm <br>
+This is a beautiful picture
+</div>
+</div>
+
+
+<div class="flexcomment middle">
+<div class="logoComment"></div>
+<div class="comments">
+Miguel Llabres <br>
+17 Feb 2017 at 12:54 pm <br>
+Nice Job
+</div>
+</div>
+
+<div class="flexcomment">
+<div class="logoComment"></div>
+<div class="comments">
+Miguel Llabres <br>
+17 Feb 2017 at 12:44 pm <br>
+Keep going!!! You can do it
+</div>
+</div>
+
+
+<div class="postC">
+<p class="bold">POST A COMMENT</p>
+<p>Want to join the discussion?Feel free to contribute!</p>
+<p>COMMENT</p>
+<textarea name="comment" id="CommentF" cols="30" rows="10"></textarea>
+<div class="ButtonFlex">
+	<div>Name:<input type="text"></div>
+	<div>Email:<input type="text"></div>
+	<div>Website<input type="text"></div>
+	<div>
+	<input class="ReadSub" type="submit">
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+<div class="aside">
+<h3>Contact Hours</h3>
+<div>
+<p class="contact"><i class="fa fa-phone"></i>778-456-7891</p>
+<p class="contact"><i class="fa fa-envelope-o"></i> info@inhabitent.com</p>
+<p><i class="fa fa-map-marker"></i>1490 W Broadway<br>Vancouver,BC V6H 1H5</p>
+</div>
+
+<h3>Business</h3>
+<div class="bussines">
+<p>Monday-Friday:9am to 5 pm</p>
+<p>Saturday:10am to 2pm</p>
+<p>Sunday:Closed</p>
+</div>
+<h3>Archives</h3>
+<div class="archive">
+<p>January 2016</p>
+<p>February 2016</p>
+</div>	
+</div>
+</div>
+<button (click)="Back()">Back</button>
+</div>
+
+

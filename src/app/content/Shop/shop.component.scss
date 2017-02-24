@@ -1,0 +1,79 @@
+#SHOP{
+	
+	text-align:center;
+}
+#SHOP .do{
+	background: url("./images/product-type-icons/do.svg")no-repeat;
+	background-size: contain;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 3vh;
+}
+#SHOP .eat{
+	background: url("./images/product-type-icons/eat.svg")no-repeat;
+	background-size: contain;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 3vh;
+}
+#SHOP .sleep{
+	background: url("./images/product-type-icons/sleep.svg")no-repeat;
+	background-size: contain;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 3vh;
+}
+#SHOP .wear{
+	background: url("./images/product-type-icons/wear.svg")no-repeat;
+	background-size: contain;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 3vh;
+}
+#SHOP input{
+	margin: 4vh 0;
+	background-color: #008080;
+	border:none;
+	color: white;
+	width: 20vh;
+	height: 5vh;
+	font-size: 1rem;
+}
+#SHOP input:hover{
+	background-color:#004F4F;
+
+}
+#SHOP .border{
+	border:1px solid #CCCCCC;
+	border-top: 3px solid #CCCCCC;
+}
+#SHOP .border:hover{
+	border-color: #FF8000;
+}
+#SHOP .products{
+	width: 22%;
+	height: 35vh;
+}
+#SHOP .wrapper{
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#SHOP .flex{
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	
+}
+#SHOP p{
+	text-align: center;
+	margin: 0 1vh;
+	line-height: 4vh;
+}
+
+#SHOP h1{
+	
+	margin: 4vh 0;
+}

@@ -1,0 +1,38 @@
+
+
+<div id="JOURNAL">
+<div class="journal center">
+<h1>INHABITENT JOURNAL</h1>
+<div class=" owl-carousel owl-theme">
+<div class="post" *ngFor = "let journal of journalEntries"
+[class.selected]="journal === selectedJournal" (click)="onSelect(journal)" [routerLink]="['/read', journal.ID]">
+        
+        <img class="border" src={{journal.image}}>
+        <div class="border">
+            <h3>{{journal.date}} / {{journal.categories.count}} comments</h3> 
+            <h2>{{journal.title}}</h2>
+            <button (click)="gotoDetail()">READ ENTRY</button>
+        </div>
+        
+  </div>     
+</div>
+<!-- <owl-carousel class="owl-carousel owl-theme" [options]="{navigation: true, pagination: true, rewindNav : true,
+    itemsDesktop: [1400, 4],
+    itemsDesktopSmall: [1230, 3],   
+    itemsTablet: [600, 2], 
+    itemsMobile: [480, 1]}">
+<div class="post" *ngFor = "let journal of journalEntries">
+		<img src={{journal.image}}>
+		<div class="border">
+			<h3>{{journal.date}} / {{journal.categories.count}} comments</h3> 
+            <h2>{{journal.title}}</h2>
+            <button>READ ENTRY</button>
+		</div>
+		
+  </div>     
+</owl-carousel>
+ -->
+</div>
+<div class="newEntry"><button routerLink="/post-entry">NEW POST</button></div>
+</div>
+

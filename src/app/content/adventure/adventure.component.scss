@@ -1,0 +1,80 @@
+#ADVEN h1{
+	margin: 4vh 0;
+}
+#ADVEN .center{
+	text-align: center;
+}
+#ADVEN .canoe{
+	background:linear-gradient(rgba(0,0,0,0.4),transparent), url("./images/adventure-photos/canoe-girl.jpg")center no-repeat;
+	background-size:cover,200%;
+	
+}
+#ADVEN .beach{
+	background:linear-gradient(rgba(0,0,0,0.4),transparent), url("./images/adventure-photos/beach-bonfire.jpg")center no-repeat;
+	background-size:cover,cover;
+	
+	
+}
+#ADVEN .mountain{
+	background:linear-gradient(rgba(0,0,0,0.4),transparent), url("./images/adventure-photos/mountain-hikers.jpg")center no-repeat;
+	background-size:cover,200%;
+	
+}
+#ADVEN .night{
+	background:linear-gradient(rgba(0,0,0,0.4),transparent), url("./images/adventure-photos/night-sky.jpg")center no-repeat;
+	background-size:cover,200%;
+	
+}
+
+#ADVEN .flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	/*flex-wrap:wrap;*/
+}
+
+#ADVEN .adventures{
+	height: 5vh;
+	background-color: #008080;
+	color: white;
+	border: none;
+	font-size: 1.25rem;
+	margin: 3vh 1vh;
+	width: 200px;
+}
+#ADVEN .adventures:hover{
+	background-color:#004F4F;
+
+}
+
+#ADVEN .canoe p{font-size: 2.5rem;margin-top: 10vh;}
+#ADVEN .beach p{font-size: 2rem;margin-top: 10vh;}
+#ADVEN p{
+	color: white;
+	font-family: merri , 
+	sans-serif;
+	font-size: 1.5rem;
+	margin: 6vh 2vh ;
+	line-height: 6vh;
+	font-weight: 100;
+}
+#ADVEN input{
+	border:1px solid white;
+	font-size: 1rem;
+	color:white;
+	background: none;
+	width: 150px;
+	height: 40px;
+	margin: 0 2vh ;
+}
+#ADVEN input:hover{
+	background-color: #008080;
+	border-color: #008080;
+}
+#ADVEN .flex-container {display: -webkit-flex;display: flex;}
+#ADVEN .category {border: 8px solid white;}
+#ADVEN .width{width: 80%;margin: 0 auto;}
+#ADVEN .large{width: 50%;}
+#ADVEN .xl{height: 82vh;}
+#ADVEN .xs{height: 40vh;}
+

@@ -1,0 +1,162 @@
+
+#READ .wrap{
+	width: 90%;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#READ .journal{
+	width:80%;
+}
+#READ .aside{
+	justify-content: center;
+	text-align: left;
+	width: 30%;
+	border-left: 1px solid #a1a1a1;
+	margin: 0 5vh;
+}
+#READ .contact{
+	color:#008080;
+}
+#READ .archive p{
+	color:#008080;
+}
+#READ p{
+	line-height: 4vh;
+	margin: 0 4vh;
+}
+#READ i{
+	margin-right: 1vh;
+	color:black;
+
+}
+
+#READ h3{
+	margin: 4vh 4vh;
+	font-size: 1.5rem;
+}
+#READ h1{	
+	text-align: center;
+	width: 30%;
+	height:8vh;
+	font-size: 2rem;
+	background-color: #008080;
+	color:white;
+	margin: 4vh 0;
+	position:absolute;
+	z-index: 99;
+}
+#READ img{
+	border:1px solid #a1a1a1;
+	width: 700px;
+	height:500px;
+	position: relative;
+	margin: 2vh 0;
+}
+#READ button{
+	font-size: 0.8rem;
+	background: none;
+	border:1px solid black;
+	color: black;
+	width: 15vh;
+	height: 5vh;
+	margin: 2vh 10vh;
+	
+}
+#READ button:hover{
+	background-color: #008080;
+	color:white;
+	border:none;
+	margin: 2vh 10vh;
+	
+}
+#READ .ReadSub{
+	font-size: 0.8rem;
+	background: none;
+	border:1px solid black;
+	color: black;
+	width: 15vh;
+	height: 5vh;
+
+}
+#READ .ReadSub:hover{
+	background-color: #008080;
+	color:white;
+	border:none;
+
+}
+#READ body{
+	margin: 0vh 2vh;
+}
+#READ ul li {
+	display: inline;
+	margin: 2vh;
+	font-size: 10px;
+	padding: 1vh;
+	width: 10vh;
+	color: black !important;
+	
+}
+// #READ input{
+// 	width:50vh;
+// }
+#READ textarea{
+	width: 80%;
+}
+
+#READ .socialIcons{
+	margin: 2vh 0;
+	width: 60vh;
+	height: 10vh;
+}
+#READ .social{
+	border: 1px solid black;
+	width:20vh;
+	height: 5vh;
+	color: black;
+}
+#READ .commentsWidth{
+	width: 80%;
+}
+
+#READ .comments{
+	
+	width: 100%;
+	margin: 2vh 0;
+	line-height: 3vh;
+}
+#READ .middle{
+	margin: 0 4vh;
+}
+#READ .postC p{
+	margin:0 0;
+}
+#READ .bold{
+	font-family: merryBold, sans-serif;
+	font-weight:bold;
+	font-size: 1.5rem;
+}
+#READ .ButtonFlex{
+	/*margin:1vh 0;*/
+	width:80%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+#READ .ButtonFlex div{
+	margin:2vh;
+}
+
+#READ .logoComment{
+	background: url("./images/me.png") no-repeat top;
+	border-radius:40px;
+	height:50px;
+	width:50px;
+	margin-right:2vh;
+}
+#READ .flexcomment{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}

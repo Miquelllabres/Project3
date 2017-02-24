@@ -1,0 +1,40 @@
+#nav{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+#nav .flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+#nav .logo{
+	background-image: url("./images/logos/inhabitent-logo-tent-white.svg");
+	background-size: contain;
+	min-height: 5vh;
+	width:7vh;
+	margin:1vh 4vh;
+}
+#nav ul{
+	margin:1vh 4vh;
+}
+#nav ul li {
+	position: center;
+	display: inline;
+	text-transform: uppercase;
+	margin: 0 1vh;
+	color:white;
+	width: 40%;
+}
+/*a:link{
+	text-decoration: none;
+	color: white;
+}
+a:active{
+	color:white;
+}
+a:visited{
+	color:white;
+}*/
