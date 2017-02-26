@@ -1,4 +1,8 @@
-.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}
+@font-face{font-family:merri;src:url(/fonts/Merriweather/Merriweather-Light.ttf)}@font-face{font-family:merriBold;src:url(/fonts/Merriweather/Merriweather-Bold.ttf)}
+@font-face{font-family:novo;src:url(/fonts/Novecento/Novecentosanswide-Normal.ttf);src:url(/fonts/Novecento/Novecentosanswide-DemiBold.ttf)}
+p{font-size:16px;font-family:merri,sans-serif;font-weight:light;color:black}h1{font-family:novo,sans-serif;font-size:2.5rem}
+h2{font-family:novo,sans-serif;font-size:2rem}h3{font-family:novo,sans-serif}a{text-decoration:none}
+a:visited{color:white}h5{color:white}.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}
 .owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y}
 .owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 .owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}
@@ -94,14 +98,17 @@ table{border-collapse:collapse;border-spacing:0}.bannerPicture{display:flex;just
 #READ ul li{display:inline;margin:2vh;font-size:10px;padding:1vh;width:10vh;color:black !important}
 #READ textarea{width:80%}#READ .socialIcons{margin:2vh 0;width:60vh;height:10vh}#READ .social{border:1px solid black;width:20vh;height:5vh;color:black}
 #READ .commentsWidth{width:80%}#READ .comments{width:100%;margin:2vh 0;line-height:3vh}
-#READ .middle{margin:0 3vh}#READ .postC p{margin:0}#READ .bold{font-family:merryBold,sans-serif;font-weight:bold;font-size:1.5rem}
+#READ .middle{margin:0 4vh}#READ .postC p{margin:0}#READ .bold{font-family:merryBold,sans-serif;font-weight:bold;font-size:1.5rem}
 #READ .ButtonFlex{width:80%;display:flex;flex-direction:row;justify-content:space-around}
-#READ .ButtonFlex div{margin:2vh}#SHOP{text-align:center}#SHOP .do{background:url("./images/product-type-icons/do.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh}
-#SHOP .eat{background:url("./images/product-type-icons/eat.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh}
-#SHOP .sleep{background:url("./images/product-type-icons/sleep.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh}
-#SHOP .wear{background:url("./images/product-type-icons/wear.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh}
+#READ .ButtonFlex div{margin:2vh}#READ .logoComment{background:url("./images/me.png") no-repeat top;border-radius:40px;height:50px;width:50px;margin-right:2vh}
+#READ .flexcomment{display:flex;flex-direction:row;align-items:center}#SHOP{text-align:center}
+#SHOP .do{background:url("./images/product-type-icons/do.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh;align-self:center}
+#SHOP .eat{background:url("./images/product-type-icons/eat.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh;align-self:center}
+#SHOP .sleep{background:url("./images/product-type-icons/sleep.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh;align-self:center}
+#SHOP .wear{background:url("./images/product-type-icons/wear.svg") no-repeat;background-size:contain;height:50px;width:50px;margin-bottom:3vh;align-self:center}
 #SHOP input{margin:4vh 0;background-color:teal;border:0;color:white;width:20vh;height:5vh;font-size:1rem}
 #SHOP input:hover{background-color:#004f4f}#SHOP .border{border:1px solid #ccc;border-top:3px solid #ccc}
-#SHOP .border:hover{border-color:#ff8000}#SHOP .products{width:22%;height:35vh}#SHOP .wrapper{margin:0 auto;width:80%;display:flex;flex-direction:row;justify-content:space-between}
-#SHOP .flex{text-align:center;display:flex;flex-direction:column}#SHOP p{text-align:center;margin:0 1vh;line-height:4vh}
+#SHOP .border:hover{border-color:#ff8000}#SHOP .products{width:22%;height:35vh;text-align:center}
+#SHOP .wrapper{margin:0 auto;width:80%;display:flex;flex-direction:row;justify-content:space-between}
+#SHOP .flex{display:flex;flex-direction:column}#SHOP p{text-align:center;margin:0 1vh;line-height:4vh}
 #SHOP h1{margin:4vh 0}

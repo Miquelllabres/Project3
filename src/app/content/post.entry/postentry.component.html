@@ -3,7 +3,7 @@
  <div id="POSTENTRY">
 <div class="flex flex-row status">
 <div class="formWrap ">
-<form  #entryForm="ngForm" id="apiForm" (ngSubmit)="SubmitJournal()" class="flex flex-column">
+<form  #entryForm="ngForm" id="apiForm" (ngSubmit)="SubmitJournal()"   class="flex flex-column">
 	<label for ="title">Title:</label>
 	<input  type="text" id="title" placeholder="Title" required minlength="8" name="title" 
 	[(ngModel)]="entry.title" #title="ngModel">
@@ -19,41 +19,41 @@
     </div>
 
 
-	<label for ="cate">Categories:</label>
-	<input  id="cate" type="text" name="categories" placeholder="Categories" required minlength="4" name="cate" [(ngModel)]="entry.categories" #cate="ngModel">
+	<label for ="categories">Categories:</label>
+	<input  id="categories" type="text" name="categories" placeholder="Categories" required minlength="4" name="categories" [(ngModel)]="entry.categories" #categories="ngModel">
 
-	<div *ngIf="cate.errors && (cate.dirty || cate.touched)"
+	<div *ngIf="categories.errors && (categories.dirty || categories.touched)"
      class="alert">
-    <div [hidden]="!cate.errors.required">
+    <div [hidden]="!categories.errors.required">
       A category is required
     </div>
-    <div [hidden]="!cate.errors.minlength">
+    <div [hidden]="!categories.errors.minlength">
       Category must be at least 4 characters long.
     </div>
     </div>
 
-	<label for ="imageF">Image:</label>
+	<label for ="image">Image:</label>
 
-	<input id="imageF" type="text" name="image"
-	placeholder="https://en.wikipedia.org/wiki/Camping#/media/File:Biskeri-_Camping_I_IMG_7238.jpg" required minlength="4" name="imageF" [(ngModel)]="entry.image" #imageF="ngModel">
+	<input id="image" type="text" name="image"
+	placeholder="https://en.wikipedia.org/wiki/Camping#/media/File:Biskeri-_Camping_I_IMG_7238.jpg" required minlength="4" name="image" [(ngModel)]="entry.image" #image="ngModel">
 
-	<div *ngIf="imageF.errors && (imageF.dirty || imageF.touched)"
+	<div *ngIf="image.errors && (image.dirty || image.touched)"
      class="alert">
-    <div [hidden]="!imageF.errors.required">
+    <div [hidden]="!image.errors.required">
       An image link is required.
     </div>
-    <div [hidden]="!imageF.errors.minlength">
+    <div [hidden]="!image.errors.minlength">
       An image link is required.
     </div>
     </div>
 
-	<label for="contentF">Content:</label>
-	<textarea id="contentF" rows="20" cols="100" name="content" required minlength="10" name="imageF" [(ngModel)]="entry.content" #contentF="ngModel"></textarea>
+	<label for="content">Content:</label>
+	<textarea id="content" rows="20" cols="100" name="content" required minlength="10" name="content" [(ngModel)]="entry.content" #content="ngModel"></textarea>
 	
 
 	<div class="flexB flex-row ">
 
-	<button type="submit" [disabled]="!entryForm.form.valid">SUBMIT</button>
+	<button type="submit"    [disabled]="!entryForm.form.valid" >SUBMIT</button>
 
 	<button class="spceBet" (click)="Back()">DELETE</button>
 

@@ -1,3 +1,4 @@
+
 #SHOP{
 	
 	text-align:center;
@@ -8,6 +9,7 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 3vh;
+	align-self:center;
 }
 #SHOP .eat{
 	background: url("./images/product-type-icons/eat.svg")no-repeat;
@@ -15,6 +17,7 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 3vh;
+	align-self:center;
 }
 #SHOP .sleep{
 	background: url("./images/product-type-icons/sleep.svg")no-repeat;
@@ -22,6 +25,7 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 3vh;
+	align-self:center;
 }
 #SHOP .wear{
 	background: url("./images/product-type-icons/wear.svg")no-repeat;
@@ -29,6 +33,7 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 3vh;
+	align-self:center;
 }
 #SHOP input{
 	margin: 4vh 0;
@@ -53,6 +58,7 @@
 #SHOP .products{
 	width: 22%;
 	height: 35vh;
+	text-align:center;
 }
 #SHOP .wrapper{
 	margin: 0 auto;
@@ -62,7 +68,6 @@
 	justify-content: space-between;
 }
 #SHOP .flex{
-	text-align:center;
 	display: flex;
 	flex-direction: column;
 	

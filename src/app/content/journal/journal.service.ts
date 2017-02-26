@@ -97,7 +97,8 @@ export class JournalService {
     
     postEntry(params: string): Promise <Journal>{
     this.postURL = this.journalPostUrl + "params=" + params;
-    console.log(this.postURL);
+    // console.log(this.postURL);
+    // console.log(params);
     
     return this.http
             .post(this.postURL, params , {headers: this.headers})
