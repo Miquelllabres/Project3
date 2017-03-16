@@ -25,7 +25,7 @@ export class JournalService {
    
     private headers = new Headers({'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'});
     
-    entries: JournalEntry[] = <JournalEntry[]>[];
+    
     postURL: string;
     //
 
@@ -94,20 +94,29 @@ export class JournalService {
           }
 
     //new journal Entry
-    
-    postEntry(params: string): Promise <Journal>{
+    // Promise <JournalEntry>
+    postEntry(params: string): Promise<any> {
     this.postURL = this.journalPostUrl + "params=" + params;
     // console.log(this.postURL);
     // console.log(params);
-    
-    return this.http
-            .post(this.postURL, params , {headers: this.headers})
-            .toPromise()
-            .then (res => res.json().data)
-            .catch(this.handleError); 
+      let responseFn:any = res => { 
+          console.log('sdfdsfdsfdsfdsfdsfdsf');
+          //console.log(res);
+          //console.log(res.json().data); 
+          //console.log('*****************');
+          // return res.json().data;
+      };
+      let postProcess = this.http.post(this.postURL, params, {headers: this.headers});
+      console.log(postProcess);
+      let whatToDoNext = postProcess.toPromise().then(function(response){console.log(response)});
+      console.log(whatToDoNext);
+       let x:Promise<any> = whatToDoNext.catch(this.handleError); 
+     console.log(x);
+     return x;
             }
             
-  
+ 
+
 
 
 }

@@ -36,46 +36,22 @@ export class PostEntryComponent implements OnInit {
   	this.entry = new JournalEntry();
     console.log(this.entry);
   }
-  //WANTED TO ADD A NEW FEATURE DISPLAYING LATEST ENTRIES ON BLOG
-  //WITHOUT IMAGES
 
-
-  //   getJournals(): void {
-  //   console.log('getting journals');
-  //   let myPromiseOfJournals:Promise<Journal[]> = this.journalService.getJournals();
-
-  //   myPromiseOfJournals.then(
-  //       journals => {
-
-  //       this.journalEntries = <Journal[]>journals;
-  //           // console.log("***** in journal.component.ts callback *****");
-  //           // console.log(this.journalEntries);
-  //           console.log(journals)
-  //       /*
-  //       console.log(this.journalEntries);
-  //       console.log("***** in journal.component.ts callback *****");
-  //       */
-  //       });
-  // }
-  // onSelect(journal: Journal): void {
-  //     this.selectedJournal = journal;
-  //     console.log(this.selectedJournal);
-      
-  //   }
-
-  // gotoDetail(journal: Journal): void {
-  //   this.selectedJournal = journal;
-  //   // this.router.navigate(['/read', this.selectedJournal.ID]);
-  // }
 
   SubmitJournal() {
   	this.params = '[' + JSON.stringify(this.entry)+']';
   	let parameters = JSON.stringify($("#apiForm").serializeArray());
   	console.log(parameters);
-  	this.journalService.postEntry(parameters);
+  	let x:Promise<any> = this.journalService.postEntry(parameters);
+    x.then( res => {
+      console.log(res); 
+    }
+      ).catch( res02=> console.log(res02) );
   }
+
 
 Back(): void {
     this.location.back();
   }
 }
+
